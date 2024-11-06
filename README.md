@@ -1,43 +1,43 @@
-Data Cleaning Project
+# Data Cleaning Project
 
 Overview
 
-This project demonstrates comprehensive data cleaning techniques applied to a dataset that includes demographic and financial information. The dataset required significant preprocessing to handle missing values, outliers, data transformations, and encoding for analysis.
+### This project demonstrates comprehensive data cleaning techniques applied to a dataset that includes demographic and financial information. The dataset required significant preprocessing to handle missing values, outliers, data ### transformations, and encoding for analysis.
 
-Project Objectives
+*  Project Objectives
+*  
+*  Identify and replace missing or null values.
 
-Identify and replace missing or null values.
+*  Correct outliers and unrealistic data entries.
 
-Correct outliers and unrealistic data entries.
+*  Encode categorical data for numerical analysis.
 
-Encode categorical data for numerical analysis.
+*  Ensure the dataset is clean and ready for further exploratory data analysis (EDA) and machine learning tasks.
 
-Ensure the dataset is clean and ready for further exploratory data analysis (EDA) and machine learning tasks.
+*  Dataset Description
 
-Dataset Description
+*  The dataset contains the following columns:
 
-The dataset contains the following columns:
+*  Id: Unique identifier for each record.
 
-Id: Unique identifier for each record.
+*  Score: A numerical score representing an assessment metric.
 
-Score: A numerical score representing an assessment metric.
+*  State: The state code or name.
 
-State: The state code or name.
+*  Gender: Binary representation where 1 is male and 0 is female.
 
-Gender: Binary representation where 1 is male and 0 is female.
+*  Age: Age of the individual.
 
-Age: Age of the individual.
+*  Assets: Number of assets owned.
 
-Assets: Number of assets owned.
+*  Balance: Account balance in the local currency.
 
-Balance: Account balance in the local currency.
+*  Products: Number of products owned.
 
-Products: Number of products owned.
+*  HasCreditCard: Binary indicator of credit card ownership.
 
-HasCreditCard: Binary indicator of credit card ownership.
+*  Active: Binary indicator of account activity.
 
-Active: Binary indicator of account activity.
+*  Income: Annual income of the individual.
 
-Income: Annual income of the individual.
-
-Churned: Binary indicator of whether the customer churned.
+*  Churned: Binary indicator of whether the customer churned.
