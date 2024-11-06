@@ -5,7 +5,7 @@ Overview
 ### This project demonstrates comprehensive data cleaning techniques applied to a dataset that includes demographic and financial information. The dataset required significant preprocessing to handle missing values, outliers, data ### transformations, and encoding for analysis.
 
 *  Project Objectives
-*  
+  
 *  Identify and replace missing or null values.
 
 *  Correct outliers and unrealistic data entries.
