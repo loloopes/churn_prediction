@@ -1,6 +1,9 @@
-# Data Cleaning Project
+# Data Cleaning Project and churn prediction
 
 Overview
+* XGBoostClassifier
+* Logistic Regression
+* Deep learning
 
 ### This project demonstrates comprehensive data cleaning techniques applied to a dataset that includes demographic and financial information. The dataset required significant preprocessing to handle missing values, outliers, data ### transformations, and encoding for analysis.
 
