@@ -5,7 +5,9 @@ Overview
 * Logistic Regression
 * Deep learning
 
-### This project demonstrates comprehensive data cleaning techniques applied to a dataset that includes demographic and financial information. The dataset required significant preprocessing to handle missing values, outliers, data transformations, and encoding for analysis. We can draw the conclusion that not always a deep learning model will outperform a out of the shelf machine learning solution such as XGBoost
+### This project demonstrates comprehensive data cleaning techniques applied to a dataset that includes demographic and financial information. The dataset required significant preprocessing to handle missing values, outliers, data transformations, and encoding for analysis. 
+
+# We can draw the conclusion that not always a deep learning model will outperform a out of the shelf machine learning solution such as XGBoost
 
 *  Project Objectives
   
