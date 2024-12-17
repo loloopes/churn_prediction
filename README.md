@@ -1,48 +1,34 @@
-# Data Cleaning Project and churn prediction
+# **Projeto de Limpeza de Dados e Predição de Churn**
 
-Overview
-* XGBoostClassifier
-* Logistic Regression
-* Deep learning
+## **Visão Geral**  
+Este projeto aplica técnicas abrangentes de **limpeza de dados** em um conjunto de dados que inclui informações demográficas e financeiras. O processo envolveu **tratamento de valores ausentes**, **correção de outliers**, **transformações de dados** e **codificação de variáveis categóricas** para facilitar a análise.  
 
-### This project demonstrates comprehensive data cleaning techniques applied to a dataset that includes demographic and financial information. The dataset required significant preprocessing to handle missing values, outliers, data transformations, and encoding for analysis. 
+Além disso, foram desenvolvidos modelos de **Machine Learning** e **Deep Learning** para prever a **taxa de churn** dos clientes. O projeto destaca uma observação importante: **modelos de aprendizado profundo nem sempre superam soluções prontas de aprendizado de máquina**, como o **XGBoostClassifier** ou a **Regressão Logística**.  
 
-# We can draw the conclusion that not always a deep learning model will outperform an out of the shelf machine learning solution such as XGBoost
+## **Objetivos do Projeto**  
+O principal objetivo foi garantir que os dados estivessem **limpos e prontos** para **análise exploratória de dados (EDA)** e tarefas de **machine learning**. Isso envolveu:  
+- **Identificação e substituição** de valores nulos.  
+- **Correção de outliers** e entradas de dados irreais.  
+- **Codificação** de variáveis categóricas em formatos numéricos.  
 
-*  Project Objectives
-  
-*  Identify and replace missing or null values.
+## **Conclusão**  
+Este projeto demonstra a importância da **preparação de dados** na construção de modelos preditivos. Embora modelos complexos, como o **Deep Learning**, possam ser atraentes, eles nem sempre são superiores a abordagens **mais simples e eficientes**, como o **XGBoost** ou a **Regressão Logística**.  
 
-*  Correct outliers and unrealistic data entries.
 
-*  Encode categorical data for numerical analysis.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-*  Ensure the dataset is clean and ready for further exploratory data analysis (EDA) and machine learning tasks.
+# **Data Cleaning and Churn Prediction Project**
 
-*  Dataset Description
+## **Overview**  
+This project applies comprehensive **data cleaning techniques** to a dataset that includes demographic and financial information. The process involved **handling missing values**, **correcting outliers**, **data transformations**, and **encoding categorical variables** to enable efficient analysis.  
 
-*  The dataset contains the following columns:
+Additionally, **Machine Learning** and **Deep Learning** models were developed to predict **customer churn**. The project highlights an important observation: **deep learning models do not always outperform ready-to-use machine learning solutions**, such as **XGBoostClassifier** or **Logistic Regression**.  
 
-*  Id: Unique identifier for each record.
+## **Project Objectives**  
+The primary goal was to ensure the data was **clean and ready** for **exploratory data analysis (EDA)** and **machine learning tasks**. This involved:  
+- **Identifying and replacing** missing values.  
+- **Correcting outliers** and unrealistic data entries.  
+- **Encoding** categorical variables into numerical formats.  
 
-*  Score: A numerical score representing an assessment metric.
-
-*  State: The state code or name.
-
-*  Gender: Binary representation where 1 is male and 0 is female.
-
-*  Age: Age of the individual.
-
-*  Assets: Number of assets owned.
-
-*  Balance: Account balance in the local currency.
-
-*  Products: Number of products owned.
-
-*  HasCreditCard: Binary indicator of credit card ownership.
-
-*  Active: Binary indicator of account activity.
-
-*  Income: Annual income of the individual.
-
-*  Churned: Binary indicator of whether the customer churned.
+## **Conclusion**  
+This project demonstrates the importance of **data preparation** in building predictive models. While complex models like **Deep Learning** can be appealing, they are not always superior to **simpler and more efficient approaches**, such as **XGBoost** or **Logistic Regression**.  
